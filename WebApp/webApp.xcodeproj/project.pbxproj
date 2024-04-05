@@ -1,0 +1,180 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXFileReference section */
+		ED2598DB2B9DFD660061497D /* main.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = main.py; sourceTree = "<group>"; };
+		ED2598E42B9DFF070061497D /* auth.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = auth.py; sourceTree = "<group>"; };
+		ED2598E52B9DFF6C0061497D /* models.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = models.py; sourceTree = "<group>"; };
+		ED2598E62B9DFF880061497D /* views.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = views.py; sourceTree = "<group>"; };
+		ED2598E82B9E08710061497D /* __init__.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = __init__.py; sourceTree = "<group>"; };
+		ED2598E92B9E1A4D0061497D /* base.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = base.html; sourceTree = "<group>"; };
+		ED2598EA2B9E2F760061497D /* home.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = home.html; sourceTree = "<group>"; };
+		ED2598EB2B9E316F0061497D /* login.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = login.html; sourceTree = "<group>"; };
+		ED2598EC2B9E318B0061497D /* sign_up.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = sign_up.html; sourceTree = "<group>"; };
+		ED2598EE2B9E31C10061497D /* index.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = index.js; sourceTree = "<group>"; };
+		ED2598EF2B9E8F920061497D /* reset_pass.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = reset_pass.html; sourceTree = "<group>"; };
+		EDF961682BAF266000520922 /* reset_request.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = reset_request.html; sourceTree = "<group>"; };
+		EDF961692BAF29CE00520922 /* reset_token.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = reset_token.html; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		ED2598E02B9DFE340061497D /* website */ = {
+			isa = PBXGroup;
+			children = (
+				ED2598E22B9DFE510061497D /* static */,
+				ED2598E12B9DFE460061497D /* templates */,
+				ED2598E42B9DFF070061497D /* auth.py */,
+				ED2598E52B9DFF6C0061497D /* models.py */,
+				ED2598E62B9DFF880061497D /* views.py */,
+				ED2598E82B9E08710061497D /* __init__.py */,
+			);
+			path = website;
+			sourceTree = "<group>";
+		};
+		ED2598E12B9DFE460061497D /* templates */ = {
+			isa = PBXGroup;
+			children = (
+				ED2598E92B9E1A4D0061497D /* base.html */,
+				ED2598EA2B9E2F760061497D /* home.html */,
+				ED2598EB2B9E316F0061497D /* login.html */,
+				ED2598EC2B9E318B0061497D /* sign_up.html */,
+				ED2598EF2B9E8F920061497D /* reset_pass.html */,
+				EDF961682BAF266000520922 /* reset_request.html */,
+				EDF961692BAF29CE00520922 /* reset_token.html */,
+			);
+			path = templates;
+			sourceTree = "<group>";
+		};
+		ED2598E22B9DFE510061497D /* static */ = {
+			isa = PBXGroup;
+			children = (
+				ED2598EE2B9E31C10061497D /* index.js */,
+			);
+			path = static;
+			sourceTree = "<group>";
+		};
+		ED547AA92B692C0E008A530B = {
+			isa = PBXGroup;
+			children = (
+				ED2598E02B9DFE340061497D /* website */,
+				ED2598DB2B9DFD660061497D /* main.py */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXProject section */
+		ED547AAA2B692C0E008A530B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1530;
+			};
+			buildConfigurationList = ED547AAD2B692C0E008A530B /* Build configuration list for PBXProject "webApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ED547AA92B692C0E008A530B;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		ED547AAE2B692C0E008A530B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				DEAD_CODE_STRIPPING = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+			};
+			name = Debug;
+		};
+		ED547AAF2B692C0E008A530B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				DEAD_CODE_STRIPPING = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ED547AAD2B692C0E008A530B /* Build configuration list for PBXProject "webApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED547AAE2B692C0E008A530B /* Debug */,
+				ED547AAF2B692C0E008A530B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ED547AAA2B692C0E008A530B /* Project object */;
+}
